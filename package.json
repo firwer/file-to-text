@@ -1,0 +1,21 @@
+{
+  "name": "resume-to-text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx functions-framework --target=parseDoc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^3.3.0"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "mammoth": "^1.6.0",
+    "pdfjs-dist": "^3.9.179"
+  }
+}
